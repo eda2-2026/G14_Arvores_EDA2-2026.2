@@ -1,0 +1,10 @@
+{
+  "name": "gato-e-o-atum-arvore-b",
+  "version": "0.1.0",
+  "description": "Árvore B visualizada como um gato procurando latas de atum numeradas (EDA2 - G14)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
