@@ -41,13 +41,13 @@ Depois é só abrir `http://localhost:8000`. No GitHub Pages funciona sem fazer 
 
 | Método | O que faz | Devolve |
 |---|---|---|
-| `new ArvoreB({ maxChaves })` | Cria uma árvore vazia. `maxChaves` ≥ 2, padrão 4. O mínimo é `Math.floor(maxChaves / 2)` | — |
+| `new ArvoreB({ maxChaves })` | Cria uma árvore vazia. `maxChaves` ≥ 2, padrão 4. O mínimo é `Math.floor(maxChaves / 2)` | - |
 | `ArvoreB.comChaves([..], { maxChaves })` | Cria uma árvore já com essas chaves (bom para a tela inicial) | `ArvoreB` |
 | `buscar(chave)` | Procura a chave. **Não altera** a árvore | Resultado |
 | `inserir(chave)` | Insere. Chave repetida não entra (`sucesso: false`) | Resultado |
 | `remover(chave)` | Remove. Chave que não existe: nada muda (`sucesso: false`) | Resultado |
 | `estado()` | Fotografia da árvore agora | Estado |
-| `limpar()` | Esvazia a árvore. Os ids recomeçam em `n1` | — |
+| `limpar()` | Esvazia a árvore. Os ids recomeçam em `n1` | - |
 | `chaves()` | Todas as chaves em ordem crescente | `number[]` |
 | `altura()` | Número de níveis (vazia = 0) | `number` |
 | `validar()` | Lista de regras quebradas (vazia = árvore ok). Para depuração | `string[]` |

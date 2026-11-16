@@ -1,4 +1,4 @@
-// Árvore B — "O Gato e o Atum"
+// Árvore B - "O Gato e o Atum"
 //
 // Cada nó é uma prateleira com latas de atum numeradas (as chaves).
 // As operações não só alteram a árvore: elas também devolvem a lista de

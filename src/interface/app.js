@@ -250,7 +250,7 @@ function reiniciar() {
   $('aviso-alvo').hidden = true;
   $('aviso-alvo').textContent = '';
   document.querySelector('.jogo').dataset.resultado = '';
-  $('alvo').textContent = 'ALVO: —';
+  $('alvo').textContent = 'ALVO: -';
   definirBusca(false);
   mensagem('Qual caixa vamos procurar?', '');
   desenhar(); acompanharGato();

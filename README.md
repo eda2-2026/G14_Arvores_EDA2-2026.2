@@ -21,7 +21,7 @@
 
 ## Sobre o projeto
 
-Trabalho de **Estruturas de Dados 2 (2026.2)** da **Universidade de Brasília — FCTE**.
+Trabalho de **Estruturas de Dados 2 (2026.2)** da **Universidade de Brasília - FCTE**.
 
 O bosque tem **15 caixas**, uma por nó, organizadas em uma **árvore binária de busca com quatro níveis**. Cada caixa recebe um número diferente de **1 a 100**. O gato segue os passos reais da busca e abre a caixa correta.
 
