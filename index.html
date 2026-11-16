@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eee5cb" />
+    <title>O Gato e o Atum · Árvore Binária</title>
+    <link rel="stylesheet" href="./src/interface/estilo.css" />
+    <script type="module" src="./src/interface/app.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="titulo">
+          <canvas id="retrato" width="32" height="32" aria-hidden="true"></canvas>
+          <div><p class="sobretitulo">UMA BUSCA NO BOSQUE</p><h1>O gato e o atum</h1></div>
+        </div>
+        <span class="etiqueta">ÁRVORE BINÁRIA</span>
+      </header>
+      <p class="introducao">Digite um número. O gato encontra a caixa e pega o peixe.</p>
+      <div id="experiencia" class="experiencia">
+      <section class="jogo" aria-label="Busca de peixes em uma árvore binária">
+        <div class="barra-jogo">
+          <div class="identidade-jogo">
+            <span>BOSQUE · 4 NÍVEIS</span>
+            <span id="alvo">ALVO: —</span>
+          </div>
+          <form id="busca" class="controles">
+            <div class="campo"><input id="numero" name="numero" type="number" step="1" min="1" max="100" required inputmode="numeric" aria-label="Número da caixa, de 1 a 100" aria-describedby="aviso-alvo" /></div>
+            <button id="procurar" class="botao-principal" type="submit"><span aria-hidden="true">▶</span> Buscar</button>
+            <button id="reiniciar" class="botao-secundario" type="button">Recomeçar</button>
+          </form>
+          <div class="controle-zoom" role="group" aria-label="Zoom do mapa">
+            <button id="zoom-menos" type="button" aria-label="Diminuir zoom">−</button>
+            <output id="valor-zoom" aria-live="polite">200%</output>
+            <button id="zoom-mais" type="button" aria-label="Aumentar zoom">+</button>
+          </div>
+          <button id="tela-cheia" type="button" aria-controls="experiencia" aria-pressed="false"><span aria-hidden="true">⛶</span> <span id="texto-tela-cheia">Tela cheia</span></button>
+        </div>
+        <p id="aviso-alvo" class="aviso-alvo" role="status" aria-live="polite" hidden></p>
+        <div class="rolagem-arvore" tabindex="0" aria-label="Mapa com quatro níveis. Deslize para explorar; a câmera acompanha o gato.">
+          <div class="mundo" id="mundo" role="group" aria-label="Árvore binária. Cada nó tem uma caixa com um número e um peixe dentro. As trilhas ligam os nós.">
+            <canvas id="arvore" width="1440" height="768" aria-hidden="true"></canvas>
+            <div id="caixas"></div>
+          </div>
+        </div>
+        <div class="mensagem" role="status" aria-live="polite" aria-atomic="true">
+          <span class="indicador" aria-hidden="true"></span>
+          <div><p id="status-titulo">Qual caixa vamos procurar?</p><p id="status-texto"></p></div>
+        </div>
+      </section>
+      </div>
+      <noscript>Ative o JavaScript no navegador para acompanhar a busca do gato.</noscript>
+    </main>
+  </body>
+</html>
