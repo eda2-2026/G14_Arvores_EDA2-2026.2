@@ -16,7 +16,7 @@
 ## Demonstração
 
 <p align="center">
-  <img src="assets/demonstracao.png" alt="Gato buscando uma caixa na árvore binária" width="1000">
+  <img src="assets/demonstracao.gif" alt="Gato percorrendo a árvore, abrindo a caixa e pegando o peixe" width="960">
 </p>
 
 ## Sobre o projeto
