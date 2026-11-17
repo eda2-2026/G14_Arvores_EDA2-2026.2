@@ -1,12 +1,12 @@
 <h1 align="center">O Gato e o Atum</h1>
 
 <p align="center">
-  Uma busca em árvore binária com pixel art:<br>
+  Uma busca em árvore B com pixel art:<br>
   o gato percorre o bosque, encontra a caixa numerada e pega o peixe.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Tema-%C3%81rvore%20Bin%C3%A1ria-4e6541?style=flat-square" alt="Tema: Árvore Binária">
+  <img src="https://img.shields.io/badge/Tema-%C3%81rvore%20B-4e6541?style=flat-square" alt="Tema: Árvore B">
   <img src="https://img.shields.io/badge/Visual-Pixel%20Art-c49251?style=flat-square" alt="Visual em pixel art">
   <img src="https://img.shields.io/badge/Interface-HTML%20%7C%20CSS%20%7C%20JavaScript-f3c65e?style=flat-square" alt="HTML, CSS e JavaScript">
 </p>
@@ -23,7 +23,7 @@
 
 Trabalho de **Estruturas de Dados 2 (2026.2)** da **Universidade de Brasília - FCTE**.
 
-O bosque tem **15 caixas**, uma por nó, organizadas em uma **árvore binária de busca com quatro níveis**. Cada caixa recebe um número diferente de **1 a 100**. O gato segue os passos reais da busca e abre a caixa correta.
+O bosque tem **15 caixas**, uma por nó, organizadas em uma **árvore B com quatro níveis**. Cada caixa recebe um número diferente de **1 a 100**. O gato segue os passos reais da busca e abre a caixa correta.
 
 Se o número não existir, ele substitui o mais próximo e a árvore é reorganizada. A busca continua com o número digitado.
 
